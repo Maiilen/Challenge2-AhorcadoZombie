@@ -1,0 +1,90 @@
+#imagenes img {
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+    background-color: black;
+    color:violet;
+    text-align: center;
+}
+
+.mostrarPalabra {
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.letra {
+    background-color: black;
+    color: violet;
+    border-style: none;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.letrasElegidas h3 {
+    margin-bottom: 0%;
+}
+
+.letrasElegidas {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.alerta {
+    font-family: monospace;
+    color: red;
+    text-align: center;
+}
+
+.letrasElegidas p {
+    margin-top: 0%;
+    padding: 0%;
+    font-size: 15px;
+    ;
+}
+
+.teclado {
+    text-align: center;
+    width: 100%;
+
+}
+
+.teclado button {
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: dashed;
+    border-color: black;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 1.5%;
+    font-family: monospace;
+    border-radius: 2%;
+}
+
+.cancelar input{
+   
+        background-color:  gray;
+         margin-bottom: 10%;
+         margin-top: 10%;
+         padding: 2%;
+         font-family: 'Creepster', cursive;
+         font-size: 20px;
+         border-style: none;
+         border-radius: 10px;
+         cursor: pointer; transition: 0s;
+        
+     
+}
